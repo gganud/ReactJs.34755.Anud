@@ -1,12 +1,22 @@
 .App {
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: whitesmoke;
 }
-
+.carttWidget{
+  display: flex;
+  align-items: center;
+}
+.carttWidget p{
+  margin-bottom: 0;
+  margin-left: .3rem;
+  font-size: 1rem;
+}
+.amount{
+ width: 4rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
