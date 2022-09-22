@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from './Dropdown';
+import Dropdown from '../Dropdown/Dropdown';
 const SectionsNavbar = () => {
     const vinos = ["Tinto","Blanco","Rosado","Espumantes"]
     const boutique = ["Anko","Benegas","Casarena","El Enemigo"]

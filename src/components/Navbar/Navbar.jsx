@@ -1,7 +1,7 @@
 import React from 'react';
-import Searchbar from './Searchbar';
-import SectionsNavbar from './SectionsNavbar';
-import CartWidget from './CartWidget';
+import Searchbar from '../Searchbar/Searchbar';
+import SectionsNavbar from '../SectionsNavbar/SectionsNavbar';
+import CartWidget from '../CartWidget/CartWidget';
 const Navbar = () => {
     return (
         <div>
