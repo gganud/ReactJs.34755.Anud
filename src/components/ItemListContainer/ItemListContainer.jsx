@@ -9,7 +9,7 @@ const ItemListContainer = () => {
                     <ItemContainer/>
                     <ItemContainer/>
                     <ItemContainer/>
-                    
+                    vcx.,cvmx.v
                 </div>
             </div> 
         </>
