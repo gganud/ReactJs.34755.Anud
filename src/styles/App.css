@@ -17,6 +17,10 @@ body{
 .amount{
  width: 4rem;
 }
+.textoDescripcion{
+  white-space: pre-wrap;
+  text-align: justify;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
