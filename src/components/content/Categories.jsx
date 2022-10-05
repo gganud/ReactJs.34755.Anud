@@ -14,7 +14,7 @@ const Categories = () => {
             const cardProducto = productosCategoria.map(producto => 
                 <div className="card col-3 m-3 " style={{borderRadius: '15px'}} key={producto.id}>
                     <div className="bg-image hover-overlay ripple ripple-surface ripple-surface-light text-center" data-mdb-ripple-color="light">
-                        <img src={"../../img/" + producto.img} style={{borderTopLeftRadius: '15px', borderTopRightRadius: '15px'}} className="img-fluid" alt="Laptop" />
+                    <Link className='nav-link text-dark fw-bold' to={`/producto/${producto.id}`}><img src={"../../img/" + producto.img} style={{borderTopLeftRadius: '15px', borderTopRightRadius: '15px'}} className="img-fluid" alt="" /></Link>
                         <a href="#!">
                         <div className="mask" />
                         </a>

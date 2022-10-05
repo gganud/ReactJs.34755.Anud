@@ -16,7 +16,7 @@ const Producto = () => {
     return (
         
             <div className='d-flex justify-content-center align-items-center'>
-                <div className="card m-3 pt-5" style={{maxWidth: '60%'}}>
+                <div className="card m-3 p-3" style={{maxWidth: '60%'}}>
                     <ProductDetails producto={producto}/>
                 </div>
             </div>

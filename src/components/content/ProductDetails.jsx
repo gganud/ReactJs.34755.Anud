@@ -5,13 +5,13 @@ const ProductDetails = ({producto}) => {
     return (
         <>
                 <p className="text-center"><a href="#!" className="text-dark fw-bold text-decoration-none">{producto.nombre}</a></p>
-            <div className='d-flex align-items-center justify-content-around'>
-            <div>
-             <div className="bg-image hover-overlay ripple ripple-surface ripple-surface-light text-center" data-mdb-ripple-color="light">
+            <div className='d-flex align-items-center justify-content-around' >
+            <div >
+             <div className="bg-image hover-overlay ripple ripple-surface ripple-surface-light text-center" data-mdb-ripple-color="light" >
                             <img src={"../img/" + producto.img} style={{borderTopLeftRadius: '15px', borderTopRightRadius: '15px'}} className="img-fluid" alt="Laptop" />
                         </div>
             </div>
-                           <div>
+                           <div style={{maxWidth: '60%'}}>
                            <p className="small text-justify textoDescripcion d-flex justify-content-center px-3">{producto.descripcion}</p>
                         <div className="card-body pb-0">
                             <div className="d-flex flex-row justify-content-center mt-1 mb-2 text-danger">
