@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 body{
   background-color: whitesmoke;
@@ -21,6 +20,64 @@ body{
   white-space: pre-wrap;
   text-align: justify;
 }
+.about{
+  text-align: justify;
+}
+footer{
+  color: white;
+  text-align: center;
+}
+footer h5{
+  font-size: large;
+}
+footer p{
+  padding: .3rem 0;
+}
+.redes{
+  margin: 1rem;
+}
+.redes img{
+  padding: 0 .5rem;
+}
+.tarjetas{
+  display: flex;
+  justify-content: center;
+}
+.tarjetas img{
+  margin: 1rem;
+  border: .1rem solid black;
+  border-radius: .6rem;
+  width: 4rem;
+}
+
+.pie{
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+}
+
+.carritoImg{
+  margin: 1rem;
+  width: 4rem;
+}
+@media only screen and (min-width: 576px){
+  .medioContacto {
+      display: flex;
+      justify-content: center;
+      margin: 1rem;
+  }
+  .medioContacto p{
+      padding-left: 3rem;
+  }
+}
+/*Comienza el mQuery desktop*/
+@media only screen and (min-width: 992px){
+.pie{
+  display: flex;
+  justify-content: center;
+}
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

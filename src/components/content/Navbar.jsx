@@ -2,8 +2,7 @@ import React from 'react';
 import Searchbar from '../layouts/Searchbar';
 import SectionsNavbar from '../layouts/SectionsNavbar';
 import CartWidget from './CartWidget';
-import {Link} from 'react-router-dom'
-
+import {Link} from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
@@ -29,3 +28,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+

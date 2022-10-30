@@ -1,18 +1,16 @@
 import React, {useState, useEffect} from 'react';
 import ProductDetails from './ProductDetails'
 import { useParams } from 'react-router-dom';
-import { consultarBDD } from '../../utils/funcionesUtiles';
+import { getProducto } from '../../utils/firebase';
 const Producto = () => {
     const [producto, setProducto] = useState([]);
     const {id} = useParams()
     useEffect(() => {
-       consultarBDD('../products.json').then(productos => {
-        const producto1 = productos.find(productoArray => productoArray.id == id)
-        setProducto(producto1)
-       })
-   
-    }, [])
-
+        getProducto(id).then(prod => {
+        setProducto(prod)
+    })
+}, [])
+if (producto.length != 0) {
     return (
         
             <div className='d-flex justify-content-center align-items-center'>
@@ -20,9 +18,7 @@ const Producto = () => {
                     <ProductDetails producto={producto}/>
                 </div>
             </div>
-
-       
     );
 }
-
+}
 export default Producto;

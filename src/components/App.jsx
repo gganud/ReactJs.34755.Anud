@@ -8,6 +8,7 @@ import Contact from './content/Contact';
 import Product from './content/Product';
 import Footer from './content/Footer'
 import Categories from './content/Categories';
+import CompraFinalizada from './content/CompraFinalizada';
 import '../styles/App.css';
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/about" element={<About/>} />
             <Route path="/contacto" element={<Contact/>} />
             <Route path="/carrito" element={<Cart/>} />
+            <Route path="/CompraFinalizada" element={<CompraFinalizada/>} />
           </Routes>
           <Footer/>
         </BrowserRouter>
